@@ -42,6 +42,10 @@ class CreateWholesaleTable extends Migration
             $table->String('sellerinfo');
             $table->String('signature');
             $table->String('shippingcountry');
+            $table->String('trialgrant');
+            $table->String('correctoffers');
+            $table->String('minimumpairs');
+            $table->String('exceptterms');
             $table->timestamps();
         });
     }

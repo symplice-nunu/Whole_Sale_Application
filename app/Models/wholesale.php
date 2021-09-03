@@ -10,9 +10,8 @@ class Wholesale extends Model
     use HasFactory;
 
     protected $fillable = [
-        'firstname', 'lastname', 'title', 'phone', 'email', 'createpassord', 'confirmpassword', 'companyname', 'ownername', 'owneremail', 'websiteurl', 'taxid', 'yearfounded', 'businesstype', 'billingcountry', 'billingaddress', 'billingcity', 'billingstate', 'billingpostalcode', 'shippingaddress', 'shippingcity', 'shippingstate', 'shippingpostalcode', 'shipingcountry', 'sellerinfo', 'signature', 'shippingcountry'
-        
-
+        'firstname', 'lastname', 'title', 'phone', 'email', 'createpassord', 'confirmpassword', 'companyname', 'ownername', 'owneremail', 'websiteurl', 'taxid', 'yearfounded', 'businesstype', 'billingcountry', 'billingaddress', 'billingcity', 'billingstate', 'billingpostalcode', 'shippingaddress', 'shippingcity', 'shippingstate', 'shippingpostalcode', 'shipingcountry', 'sellerinfo', 'signature', 'shippingcountry', 'trialgrant', 'correctoffers', 'minimumpairs', 'exceptterms'
+       
     ];
     protected $table="wholesale";
 }
